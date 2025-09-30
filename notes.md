@@ -1,4 +1,4 @@
-**Why large t value makes small p value?**  
+# Why large t value makes small p value?
 The t-statistic measures how big the difference between two group means is compared to the noise (uncertainty) in the data.  
 Standard error measures how much uncertainty there is in the estimate of a group’s mean.
 ```
@@ -21,5 +21,7 @@ t = (difference in means) / standard error
 •	Very conservative — controls the chance of any mistake  
 •	Example: “I want to be sure none of my top hits are false”
 
+# Handle missingness 
 Multiple Imputation by Chained Equations (MICE): predict the missingness values using other variables. The prediction is base on regression model.  
-https://cran.r-project.org/web/packages/miceRanger/vignettes/miceAlgorithm.html
+https://cran.r-project.org/web/packages/miceRanger/vignettes/miceAlgorithm.html  
+Inverse probability weighting (IPW): give more weight to underrepresentated, less weight to overrepresentated.
