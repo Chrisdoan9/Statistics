@@ -25,3 +25,6 @@ t = (difference in means) / standard error
 Multiple Imputation by Chained Equations (MICE): predict the missingness values using other variables. The prediction is base on regression model.  
 https://cran.r-project.org/web/packages/miceRanger/vignettes/miceAlgorithm.html  
 Inverse probability weighting (IPW): give more weight to underrepresentated, less weight to overrepresentated.
+
+# Mixed effect model
+A statistical model that includes both fixed effects and random effects to analyze hierarchical or clustered data, such as longitudinal studies or data from multiple groups. Fixed effects are variables for which the researcher is interested in the specific levels and the conclusions they represent, while random effects are used to account for variability between groups or individuals, like different hospitals or patients, that are not the primary focus of the analysis but influence the observed outcomes. 
